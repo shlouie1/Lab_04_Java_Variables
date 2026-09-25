@@ -2,6 +2,7 @@ public class Main {
     public void main() {
         // intOperandA, intOperandB, intSum, intProduct, intDifference, intQuotient, intModulo
 
+        //intializing all the variables
         int intOperandA = 1;
         int intOperandB = 13;
         int intSum = 10;
@@ -17,6 +18,7 @@ public class Main {
         double doubleDifference = 849.239;
         double doubleQuotient = 257.93;
 
+        //performing arithmetic operations
         intSum = intOperandA + intOperandB;
         intDifference = intOperandA - intOperandB;
         intProduct = intOperandA * intOperandB;
@@ -28,6 +30,7 @@ public class Main {
         doubleProduct = doubleOperandA * doubleOperandB;
         doubleQuotient = doubleOperandA / doubleOperandB;
 
+        //printing out results of operations
         System.out.println("The sum using ints of " + intOperandA + " " + intOperandB + " is " + intSum);
         System.out.println("The difference using ints of " + intOperandA + " " + intOperandB + " is " + intDifference);
         System.out.println("The product using ints of " + intOperandA + " " + intOperandB + " is " + intProduct);
@@ -41,14 +44,16 @@ public class Main {
 
         System.out.println("\n*********\n");
 
+        //initializing PII variables
         double myLunchCost = 10.50;
         int numberOfKidsInMyFamily = 2;
         boolean isRainingStatus = false;
         int myFavNum = 84;
         double myShoeSize = 12.5;
         String myBirthMonth = "May";
-        String myFullName = "Carter Jackson Wiesner";
+        String myFullName = ("Carter Jackson Wiesner");
 
+        //printing out full statements based on PII
         System.out.println("The cost of my lunch is " + myLunchCost);
         System.out.println("The number of kids in my family is " + numberOfKidsInMyFamily);
         System.out.println("Is it raining: " + isRainingStatus);
